@@ -33,3 +33,49 @@
     font-size: 44px;
     font-weight: 900px;
 }
+
+/*Section2*/
+.section2 {
+    height: 648px;
+}
+
+.box-for-cards-section2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 94px;
+}
+
+.card-for-section2 {
+    height: 88px;
+    width: 270px;
+
+}
+
+.card-for-section2-text {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-for-section2-title {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.subtitle1 {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 118px;
+}
+.box-for-images{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
