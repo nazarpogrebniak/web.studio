@@ -1,5 +1,10 @@
 * {
     list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 80px;
 }
 
 .box-for-header {
@@ -8,25 +13,27 @@
     gap: 218px;
     justify-content: center;
     padding-top: 33px;
-    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
     font-weight: 500;
-    
+
+
 }
-
-
 
 .order-header {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    color: #212121;;
+    color: #212121;
+
 }
 
 .contacts {
     display: flex;
     flex-direction: row;
     gap: 50px;
-    color: #757575;;
+    color: #757575;
+    ;
 }
 
 header li:hover {
