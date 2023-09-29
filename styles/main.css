@@ -1,7 +1,7 @@
 /*Section 1*/
 .section1 {
     background: #2F303A;
-    height: 600px;
+
 }
 
 .box-for-section1 {
@@ -10,6 +10,7 @@
     align-items: center;
     padding-top: 200px;
     gap: 40px;
+    padding-bottom: 200px;
 
 }
 
@@ -23,7 +24,6 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-size: 16px;
     font-weight: 700px;
-
 }
 
 .main-title {
@@ -35,9 +35,7 @@
 }
 
 /*Section2*/
-.section2 {
-    height: 648px;
-}
+
 
 .box-for-cards-section2 {
     display: flex;
@@ -72,10 +70,70 @@
     font-weight: 700;
     padding-top: 118px;
 }
-.box-for-images{
+
+.box-for-images {
     display: flex;
     gap: 30px;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 94px;
+}
+
+/*Section3*/
+.section3 {
+    background: #F5F4FA;
+    padding-bottom: 94px;
+}
+
+.subtitle2 {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.box-for-cards-section3 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.card {
+    width: 270px;
+    height: 368px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #FFF;
+
+
+}
+
+.ihor {
+    width: 270px;
+    height: 260px;
+
+}
+
+.member {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.position {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.name {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
 }

@@ -1,0 +1,24 @@
+footer {
+    background: #2F303A;
+}
+
+.box-for-footer {
+    padding-left: 215px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.info-box {
+    width: 231px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+}
+.info-box div:hover{
+    color: #fff;
+}
