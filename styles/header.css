@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.box-for-header {
+.navigation {
     display: flex;
     flex-direction: row;
     gap: 218px;
