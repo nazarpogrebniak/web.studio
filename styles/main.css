@@ -79,6 +79,24 @@
     padding-bottom: 94px;
 }
 
+.img-block {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 224px;
+    width: 370px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background: rgba(47, 48, 58, 0.80);
+}
+
 /*Section3*/
 .section3 {
     background: #F5F4FA;
